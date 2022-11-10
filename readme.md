@@ -192,6 +192,12 @@ Types of duplication:
 
 ## 8.-Orthogonality
 
+This is a term borrowed from geometry. We probably know this concept under names like modularity or layered systems. In the end, all of them refer to a system whose components are loosely coupled, meaning that the components don't have a lot of dependencies.
+
+In orthogonal systems, it's easy to change one component without the fear of breaking something on the other end. These systems are also easier to test.
+
+Thinking about orthogonality during the development or design stage of a system can help a lot in making the system easier to work with in the future and prevent bugs.
+
 Two or more things are orthogonal if changes in one do not affect any of the others. Also called *cohesion*.
 Write "shy" code.
 
